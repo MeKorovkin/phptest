@@ -25,6 +25,8 @@ services:
     # монтируем директорию с проектами
     volumes:
       - ./../:/var/www
+    env_file:
+      - ./../.env
   mysql:
     image: mysql
     ports:

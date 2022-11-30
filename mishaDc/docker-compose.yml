@@ -42,3 +42,5 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: 12345
       MYSQL_DATABASE: qwerty
+      MYSQL_USER: us1
+      MYSQL_PASSWORD: 12345

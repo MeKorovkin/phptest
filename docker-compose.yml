@@ -39,7 +39,7 @@ services:
     # задаем пароль для root пользователя
     # заливку дампа сайта и создание пользователя для доступа к базе снаружи будем делать позже
     environment:
-      - MYSQL_ROOT_PASSWORD=12345
-      - MYSQL_DATABASE=test
-      - MYSQL_USER=data_test
-      - MYSQL_PASSWORD=12345
+      MYSQL_ROOT_PASSWORD: 12345
+      MYSQL_DATABASE: qwerty
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 12345
